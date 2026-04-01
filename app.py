@@ -131,7 +131,7 @@ if page == "🔍 手机筛选":
 
                     # 如果有其他参数想一起展示
                     st.caption(f"电池：{phone.get('battery', 'N/A')}mAh")
-                    st.caption(f"内存：{phone.get('ram', 'N/A')}GB")
+                    st.caption(f"内存：{phone.get('memory', 'N/A')}GB")
 
             # 添加一个简单的迷你条形图作为视觉辅助
             if len(compare_models) >= 2:
